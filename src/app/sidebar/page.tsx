@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Image from 'next/image'
-import { personContact, personData } from '../person-info/page'
+import  {personData,education ,personContact} from '../person-info/page'
 import { Linkedin, Twitter, Medium, Envelope, userImg } from '../icons'
 
 export default function SideBar(){
@@ -17,10 +17,10 @@ export default function SideBar(){
             className='rounded-full'
           />
           <div className='pt-4 md:pt-5 text-2xl md:text-3xl text-yellow-500 font-serif text-center'>
-            {personData.name}
+            { personData.name }
           </div>
         </div>
-        <div className='text-center'>{personData.education}</div>
+        <div className='text-center'>{education}</div>
         <div className='flex pt-10 md:pt-16 space-x-3'>
           <div>
             <a href={personContact.contact[0]}>
@@ -47,6 +47,3 @@ export default function SideBar(){
     </>
   )
 }
-
-
-
