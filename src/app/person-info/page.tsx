@@ -1,9 +1,6 @@
 import React from "react";
 
- export const personData = {
-  name: "Rizwan Ali",
-  role: "Software Developer",
-};
+export const personName = ("Rizwan Ali");
 
 export const education = (
   <>
