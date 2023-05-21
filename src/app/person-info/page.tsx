@@ -1,6 +1,6 @@
 import React from "react";
 
-export const personName = ("Rizwan Ali");
+// export const personName = ("Rizwan Ali");
 
 export const education = (
   <>
